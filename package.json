@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/HassanZz/responsive-page-using-tailwind/issues"
   },
   "homepage": "https://github.com/HassanZz/responsive-page-using-tailwind#readme",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.0.24"
   }
 }
