@@ -1,0 +1,23 @@
+{
+  "name": "responsive-page-using-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanZz/responsive-page-using-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanZz/responsive-page-using-tailwind/issues"
+  },
+  "homepage": "https://github.com/HassanZz/responsive-page-using-tailwind#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
