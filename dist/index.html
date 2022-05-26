@@ -36,10 +36,16 @@
         </nav>
       </div>
 
-      <main class="px-16 py-6">
-        <div>
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-end">
           <a href="#" class="text-primary">Log in</a>
-          <a href="#" class="text-primary">Sign up</a>
+          <a href="#" class="text-primary ml-2">Sign up</a>
+        </div>
+
+        <div class="flex items-center">
+          <div class="bg-red-500 h-4 w-6"></div>
+          <div class="bg-blue-500 h-8 w-6"></div>
+          <div class="bg-green-500 h-12 w-6"></div>
         </div>
 
         <header>
@@ -54,11 +60,15 @@
 
           <div class="mt-8">
             <!-- cards go here -->
-            <div>
-              <img src="img/stew.jpg" alt="stew" />
-              <div>
-                <span>5 Bean Chili Stew</span>
-                <span>Recipe by Mario</span>
+            <div class="bg-white rounded overflow-hidden shadow-xl">
+              <img
+                src="img/stew.jpg"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
             </div>
           </div>
